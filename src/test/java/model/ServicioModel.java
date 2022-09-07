@@ -22,7 +22,7 @@ public class ServicioModel {
     public int Exp;
     public String Escenario;
 
-    public static ServicioModel servicioProyectoModel(Map<String, String> entry) throws Exception {
+    public static ServicioModel servicioProyectoModel(Map<String, String> entry){
 
         ServicioModel inOutData = new ServicioModel();
         inOutData.setExp(Integer.parseInt(entry.get("exp")));

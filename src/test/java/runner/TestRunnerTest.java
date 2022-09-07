@@ -22,7 +22,7 @@ public class TestRunnerTest {
 
 
     @Test(dataProvider = "features")
-    public void EmployeeTest(PickleWrapper pickleWrapper, FeatureWrapper featureWrapper) throws ClassNotFoundException {
+    public void EmployeeTest(PickleWrapper pickleWrapper, FeatureWrapper featureWrapper) {
         testNGCucumberRunner.runScenario(pickleWrapper.getPickle());
     }
 

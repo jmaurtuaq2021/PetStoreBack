@@ -15,7 +15,7 @@ import java.util.Map;
 public class SolicitudNESteps {
 
     @DataTableType
-    public ServicioModel convertServiceModel(Map<String, String> entry) throws Exception {
+    public ServicioModel convertServiceModel(Map<String, String> entry) {
         return ServicioModel.servicioProyectoModel(entry);
     }
 
@@ -34,9 +34,9 @@ public class SolicitudNESteps {
             String strMessageError = CommonServicesUtil.responseMessage(response, serviceMod.getExp());
             sa.assertEquals(response.getStatusCode(), serviceMod.getExp(), "Escenario [" + serviceMod.getEscenario() + "] Message [" + strMessageError + "]");
 
-            if (response.getStatusCode() == 200) {
-
-            }
+//            if (response.getStatusCode() == 200) {
+//
+//            }
 
             listResults.add("[" + serviceMod.getExp() + "][" + serviceMod.getEscenario() + "]");
         }
