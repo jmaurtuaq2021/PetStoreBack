@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-public class SolicitudNESteps {
+public class FuncionalidadNESteps {
 
     @DataTableType
     public ServicioModel convertServiceModel(Map<String, String> entry) {
