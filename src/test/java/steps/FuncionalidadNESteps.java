@@ -30,13 +30,9 @@ public class FuncionalidadNESteps {
             System.out.println("===========================================");
             System.out.println("======== (POST) - Crear usuario ===========");
             System.out.println("===========================================");
-            Response response = ResponseProyectoNEServices.postUser();
+            Response response = ResponseProyectoNEServices.postUser(serviceMod.getBody());
             String strMessageError = CommonServicesUtil.responseMessage(response, serviceMod.getExp());
             sa.assertEquals(response.getStatusCode(), serviceMod.getExp(), "Escenario [" + serviceMod.getEscenario() + "] Message [" + strMessageError + "]");
-
-//            if (response.getStatusCode() == 200) {
-//
-//            }
 
             listResults.add("[" + serviceMod.getExp() + "][" + serviceMod.getEscenario() + "]");
         }

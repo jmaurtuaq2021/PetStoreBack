@@ -8,10 +8,10 @@ public class ResponseProyectoNEServices {
 
     public static String baseApiUri = Settings.UrlApiBase;
     public static String baseUriServices = Settings.UrlApiNEPath;
-    public static String aSubscriptionKey = Settings.SubscriptionKeyApiNE;
 
-    public static Response postUser() {
+    public static Response postUser(String body) {
         RequestSpecification requestSpecification = new RestAssuredConfiguration().getRequestSpecification(baseApiUri, baseUriServices, 0);
-        return new RestAssuredConfiguration().getResponsePost(requestSpecification, EndPointProyecto.POST_NOMBRE);
+        String strBody = CommonServicesUtil.getBody(body);
+        return new RestAssuredConfiguration().getResponsePost(requestSpecification.body(strBody), EndPointProyecto.POST_NOMBRE);
     }
 }
