@@ -15,9 +15,6 @@ public class RestAssuredConfiguration {
     public void configure() throws IOException {
 
         ConfigReader.PopulateSettings();
-//        RestAssured.baseURI = Settings.URLServices;
-////        RestAssured.port = ;
-//        RestAssured.basePath = "/api/delorean";
 
     }
 
