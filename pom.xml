@@ -33,7 +33,7 @@
                         </goals>
                         <configuration>
                             <projectName>CucumberReporting</projectName>
-                            <outputDirectory>${project.build.directory}/site/cucumber-reports/cucumber-html-reports/</outputDirectory>
+                            <outputDirectory>${project.build.directory}/site/cucumber-reports/</outputDirectory>
                             <cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput>
                             <checkBuildResult>false</checkBuildResult>
                         </configuration>
