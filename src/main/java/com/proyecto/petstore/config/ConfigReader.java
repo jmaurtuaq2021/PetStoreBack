@@ -1,4 +1,6 @@
-package com.proyecto.pacifico.config;
+package com.proyecto.petstore.config;
+
+import com.proyecto.petstore.config.Settings;
 
 import java.io.FileInputStream;
 import java.io.IOException;

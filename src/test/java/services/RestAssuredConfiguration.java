@@ -1,6 +1,6 @@
 package services;
 
-import com.proyecto.pacifico.config.ConfigReader;
+import com.proyecto.petstore.config.ConfigReader;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;

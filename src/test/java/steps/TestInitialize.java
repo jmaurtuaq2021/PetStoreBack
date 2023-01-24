@@ -1,7 +1,7 @@
 package steps;
 
 
-import com.proyecto.pacifico.config.ConfigReader;
+import com.proyecto.petstore.config.ConfigReader;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;

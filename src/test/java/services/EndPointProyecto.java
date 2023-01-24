@@ -2,5 +2,6 @@ package services;
 
 public interface EndPointProyecto {
 
-    String POST_NOMBRE = "/users";
+    String POST_MASCOTA = "/pet";
+  String GET_MASCOTA = "/pet/{id}";
 }

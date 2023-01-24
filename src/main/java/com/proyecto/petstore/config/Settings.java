@@ -1,4 +1,4 @@
-package com.proyecto.pacifico.config;
+package com.proyecto.petstore.config;
 
 public class Settings {
 

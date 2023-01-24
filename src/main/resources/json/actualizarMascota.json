@@ -1,0 +1,23 @@
+{
+  "name": "doggie",
+  "photoUrls": [
+    "nisi nostrud ipsum adipisicing aliqua",
+    "ut pariatur tempor dolore"
+  ],
+  "id": -21405977,
+  "category": {
+    "id": -3140422,
+    "name": "tempor sunt deserunt dolor consequat"
+  },
+  "tags": [
+    {
+      "id": -12594189,
+      "name": "esse laboris reprehenderit cillum"
+    },
+    {
+      "id": 5851706,
+      "name": "u"
+    }
+  ],
+  "status": "available"
+}
