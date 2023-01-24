@@ -1,0 +1,23 @@
+{
+  "name": "doggie",
+  "photoUrls": [
+    "laboris commodo pariatur ut",
+    "labore amet ad"
+  ],
+  "id": 405231,
+  "category": {
+    "id": 42694301,
+    "name": "veniam mollit esse aute ut"
+  },
+  "tags": [
+    {
+      "id": -62290971,
+      "name": "Lorem"
+    },
+    {
+      "id": 6692940,
+      "name": "sunt ex"
+    }
+  ],
+  "status": "sold"
+}
